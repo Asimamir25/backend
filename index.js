@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 9090;
 
 app.use(
   cors({
-    origin: "https://frontend-5mx4.vercel.app/",
+    origin: "https://frontend-5mx4.vercel.app",
   })
 );
 app.use("/api", router);
